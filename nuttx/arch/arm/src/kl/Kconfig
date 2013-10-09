@@ -14,6 +14,10 @@ config ARCH_CHIP_MKL25Z128
 	bool "MKL25Z128"
 	select ARCH_FAMILY_KL2X
 
+config ARCH_CHIP_MKL25Z64
+	bool "MKL25Z64"
+	select ARCH_FAMILY_KL2X
+
 endchoice
 
 # Chip families
