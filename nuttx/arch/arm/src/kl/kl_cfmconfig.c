@@ -22,14 +22,14 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
 const uint8_t _cfmconfig[16] __attribute__((section(".cfmconfig"))) =
 {
-    0xFF,  /* NV_BACKKEY3: KEY=0xFF */
-    0xFF,  /* NV_BACKKEY2: KEY=0xFF */
-    0xFF,  /* NV_BACKKEY1: KEY=0xFF */
     0xFF,  /* NV_BACKKEY0: KEY=0xFF */
-    0xFF,  /* NV_BACKKEY7: KEY=0xFF */
-    0xFF,  /* NV_BACKKEY6: KEY=0xFF */
-    0xFF,  /* NV_BACKKEY5: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY1: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY2: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY3: KEY=0xFF */
     0xFF,  /* NV_BACKKEY4: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY5: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY6: KEY=0xFF */
+    0xFF,  /* NV_BACKKEY7: KEY=0xFF */
     0xFF,  /* NV_FPROT3: PROT=0xFF */
     0xFF,  /* NV_FPROT2: PROT=0xFF */
     0xFF,  /* NV_FPROT1: PROT=0xFF */
